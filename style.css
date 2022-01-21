@@ -1,0 +1,66 @@
+body{
+    background: tan;
+}
+
+h1{
+    font-family:Tahoma, sans-serif;
+    font-size:35px;
+    text-align: center;
+}
+
+.container{
+    width:495px;
+    height:410px;
+    background: snow;
+    border-radius: 25px;
+    box-shadow: 1px 1px 11px black;
+    margin:15px 420px;
+}
+
+.date1-input, .date2-input{
+    font-size:25px;
+    font-family:Tahoma, sans-serif;
+    text-align:center;
+    letter-spacing: 5px;
+    border:none;
+    border:3px solid black;
+    margin:20px 90px;
+    width:500px -10px;
+    outline:none;
+    font-weight: bold;
+}
+
+.start-date-text, .end-date-text{
+    text-align: center;
+    font-size:25px;
+    font-family:Tahoma, sans-serif;
+    margin:15px 180px;
+    font-weight: bold;
+}
+
+.submit-btn{
+    border:none;
+    border:3px solid black;
+    border-radius: 25px;
+    font-size:30px;
+    opacity:85%;
+    width:150px;
+    margin:20px 170px;
+}
+
+.submit-btn:hover{
+    opacity:100%;
+    cursor: pointer;
+}
+
+.submit-btn:active{
+    box-shadow: 1px 1px 11px black;
+}
+
+.output-text{
+    text-align: center;
+    font-size:25px;
+    font-family:Tahoma, sans-serif;
+    margin:15px 130px;
+    font-weight: bold;
+}
